@@ -9,6 +9,30 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Hide Active Tool Window">
+        <Item>
+          <IdeaActionID>HideActiveWindow</IdeaActionID>
+          <ShortCut>'Shift+Esc'</ShortCut>
+          <Description>Hide Active Tool Window</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Hide All Windows">
+        <Item>
+          <IdeaActionID>HideAllWindows</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F12'</ShortCut>
+          <Description>Hide All Windows</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Jump to Last Tool Window">
+        <Item>
+          <IdeaActionID>JumpToLastWindow</IdeaActionID>
+          <ShortCut>'F12'</ShortCut>
+          <Description>Jump to Last Tool Window</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="New Folder...">
         <Item>
           <IdeaActionID>FileChooser.NewFolder</IdeaActionID>
@@ -33,11 +57,35 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Restore Default Layout">
+        <Item>
+          <IdeaActionID>RestoreDefaultLayout</IdeaActionID>
+          <ShortCut>'Shift+F12'</ShortCut>
+          <Description>Restore Default Layout</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Restore Windows">
+        <Item>
+          <IdeaActionID>HideAllWindows</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F12'</ShortCut>
+          <Description>Restore Windows</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run...">
         <Item>
           <IdeaActionID>ChooseRunConfiguration</IdeaActionID>
           <ShortCut>'Alt+Shift+F10'</ShortCut>
           <Description>Run...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Settings...">
+        <Item>
+          <IdeaActionID>ShowSettings</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+S'</ShortCut>
+          <Description>Settings...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -54,7 +102,7 @@
           <IdeaActionID>ShowUmlDiagram</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+U'</ShortCut>
           <Description>Show Diagram...</Description>
-          <Count>9</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="VCS Operations Popup...">
