@@ -67,12 +67,34 @@
       </Statistic>
     </option>
     <option name="suppressed">
+      <Statistic Action="Create Graph">
+        <Item>
+          <IdeaActionID>CodeIris.ReadModule</IdeaActionID>
+          <Description>Create Graph</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Project">
         <Item>
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Reload PlantUml Diagrams">
+        <Item>
+          <IdeaActionID>PlantUML.Reload</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+G'</ShortCut>
+          <Description>Reload PlantUml Diagrams</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Update PlantUml Diagrams - changes only">
+        <Item>
+          <IdeaActionID>PlantUML.Update</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+F'</ShortCut>
+          <Description>Update PlantUml Diagrams - changes only</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
     </option>
