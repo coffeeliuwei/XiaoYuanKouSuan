@@ -129,6 +129,12 @@
           <Description>Create Graph</Description>
         </Item>
       </Statistic>
+      <Statistic Action="Fit View">
+        <Item>
+          <IdeaActionID>CodeIris.PanToCenter</IdeaActionID>
+          <Description>Fit View</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Project">
         <Item>
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
